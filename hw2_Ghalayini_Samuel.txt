@@ -13,9 +13,27 @@ Assignment: Homework 2 Cryptography
 
 1.2 You cannot compute a because a is the secret key of the other party. Using a and b the two parties compute a shared secret key. But you cannot get a from only knowing b. a and b are only known to their respective parties. 
 
-1.3 p = 0000...00
+1.3 p = prime:
+            00:c3:8b:e4:4f:84:db:16:91:ff:4f:61:cc:1b:9f:
+            9c:76:94:b8:8c:67:da:55:ec:84:7e:05:0b:8b:c4:
+            76:53:cc:48:9c:7f:d5:30:3e:ea:c5:c2:67:8d:db:
+            b8:c5:82:42:ff:89:f4:09:75:0d:19:da:b1:22:ab:
+            1b:31:94:58:82:54:6d:09:ee:e0:38:7a:71:cd:ff:
+            1d:fd:6b:22:b5:ad:a4:88:74:84:7d:72:77:25:1d:
+            7d:3c:6f:60:6a:f9:7a:8f:a1:ad:5e:4d:0c:98:dd:
+            e2:d2:45:22:78:e4:b1:09:c3:a9:19:20:da:67:f1:
+            8a:fc:b5:b8:61:37:b3:2c:d0:78:ae:31:dd:c4:67:
+            ff:2d:04:59:0c:79:68:62:80:0b:bb:70:3d:68:c9:
+            ec:c4:83:5d:92:ce:5c:22:7b:96:29:60:6c:86:eb:
+            1c:81:94:ae:28:27:75:9b:3b:ea:9c:d3:f3:e5:65:
+            8b:6e:45:ae:3c:12:81:09:d9:b7:fb:51:3c:59:9a:
+            22:67:b3:89:3a:bb:36:be:3d:d7:f2:20:34:93:bb:
+            a3:9c:af:59:c1:22:d8:d4:55:6d:13:b6:95:78:08:
+            ee:76:36:51:93:10:6d:11:a0:8b:0c:dd:7f:3f:5c:
+            c7:e8:5e:87:6d:5d:eb:a5:e3:40:56:56:c3:d8:a6:
+            1b:1b
 
-g = 0000..00
+g = 2 (0x2)
 
 # Part 2
 
