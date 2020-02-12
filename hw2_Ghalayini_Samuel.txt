@@ -1,0 +1,40 @@
+Samuel Ghalayini
+Sigh 1674
+February 10 2020
+ECEN 4133 Computer Security Fundamentals
+Assignment: Homework 2 Cryptography 
+
+# Part 1
+
+1.1a. g^b mod p = 
+
+1.1b. g^(ab)mod p = A^b mod p
+	
+
+1.2 You cannot compute a because a is the secret key of the other party. Using a and b the two parties compute a shared secret key. But you cannot get a from only knowing b. a and b are only known to their respective parties. 
+
+1.3 p = 0000...00
+
+g = 0000..00
+
+# Part 2
+
+2.1 The phrase encoded with Bob's public key is "Attack at 6pm", I found this by running a script to go through all the possible times to attack (all the hours of a day) and quit when the two strings were equal.
+
+2.2 Alice should encrypt her message by using a pseudo random function to get a key k using e then encrypt using key k and a symmetric cipher.
+
+2.3 I used the command ->
+	$ echo 'sagh1674' | openssl rsautl -encrypt -pubin -inkey rsa-pub.pem > personal.txt
+I chose this command because after looking at openssl, this should include some padding so that breaking it isn't easy. But if I sent my public key out then I would have encrypted my message with ->
+	C=E(M, PUB)  t=E(H(C), PRA)
+And send C||t, where C is my cipher text and t is a encryption of a hash of C and my private key.
+Hex cipher text ->
+46b028b75fe1444d86299c6bb2ca3969c98ccd17ceca84cf00c4691316ae
+7013bc55b3f51a4eba32faf00b52f34a065af9937a4a8db72fed64c16bae
+204b25a7fc055c7c73cd96e4472bf2dbf74e06608a2f2cd0f1d03f6396e5
+2cca4c458efeed26c0b372fd6ee38c453e8b0b506f7383ed645fba4f3c5a
+2ea8f8e550d3826fdb34596379bc019cc2fc496b2e5bbe2d8ea9bf74220c
+37301908c49b6154e851d68a45b9d8fc97b7a1d9e24fd7993388ba5e15c2
+e91f4c3f8275481b89b4a52afd8bdadf9c7a4180312b6da091ae3b631300
+bffd2c2a86334acb0194cb3847788fd741fca893a7fdf8ec35bfb7ca0683
+8f1ef0411e5184f4d56816de5d9ce63a0a
